@@ -1,6 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# URL Shortener
+
+A modern URL shortening service built with Next.js and TypeScript. Create shortened URLs with custom features like QR codes, expiration dates, and analytics.
+
+## Live Demo
+[Visit URL Shortener](https://url-shortner-frontend-5zhn.vercel.app/)
+
+## Test Credentials
+- **Email:** intern@dacoid.com
+- **Password:** Test123
+
+## Features
+
+### Core Features
+- URL Shortening with custom aliases
+- QR Code generation with customizable colors
+- URL expiration dates
+- Analytics dashboard
+- User authentication
+- Responsive design
+
+### URL Customization
+- Custom alias support
+- Expiration date setting
+- QR Code generation
+  - Customizable foreground color
+  - Customizable background color
+- Click tracking and analytics
+
+### User Features
+- User registration and authentication
+- Personal dashboard
+- URL management
+- Analytics tracking
+- Profile management
 
 ## Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+- Git
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/DeepanshuAgarwal999/url_shortner.git
+cd url-shortener
+```
 
 First, run the development server:
 
@@ -14,7 +61,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. and change env as well for the backend base url.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
